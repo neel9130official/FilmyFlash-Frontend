@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { api } from '../api';
-import Checkout from './Checkout';
+import Checkout from './checkout';
 
 export default function SeatSelector({ show, user, goBack }) {
   const [seats, setSeats] = useState([]);
