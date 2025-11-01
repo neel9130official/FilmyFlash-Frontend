@@ -1,0 +1,9 @@
+/* simple styling */
+body { font-family: Arial, sans-serif; margin:0; padding:0; background:#fafafa; color:#222; }
+.app header { display:flex; justify-content:space-between; padding:1rem; background:#222; color:#fff; align-items:center; }
+.app main { padding:1rem; }
+button { padding:.5rem 1rem; margin: .2rem; cursor:pointer; }
+.movie-card { border:1px solid #ddd; padding:1rem; margin-bottom:1rem; display:flex; gap:1rem; background:#fff; }
+.seat { display:inline-block; width:32px; height:32px; line-height:32px; text-align:center; border:1px solid #666; margin:4px; cursor:pointer; }
+.seat.booked { background:#444; color:#fff; cursor:not-allowed; }
+.seat.selected { background:#2b8; color:#fff; }
